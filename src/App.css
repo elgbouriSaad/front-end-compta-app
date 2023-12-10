@@ -1,0 +1,63 @@
+/* -------------------AddAccountant------------------- */
+.custom-toast-success,
+.custom-toast-error {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+}
+/* -----------sidebar----------- */
+
+.main-content {
+  width: 100%;
+  transition: margin-left 0.3s ease, width 0.3s ease;
+  min-height: 100vh;
+}
+.main-content.with-sidebar {
+  margin-left: 280px;
+  width: calc(100% - 280px);
+  padding: 0px;
+}
+.main-content.without-sidebar {
+  padding: 0px;
+}
+.container{
+  margin-top: 50px;
+}
+.icon-space {
+  margin-right: 15px;
+}
+
+.dashboard-container {
+  text-align: center;
+  padding: 20px; /* Add padding to provide space around the content */
+  font-size: 1.1rem; /* Adjust font size as needed */
+}
+
+.centered-navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px; /* Add margin for spacing */
+}
+
+.navigation-button {
+  margin-top: 10px; /* Add margin between buttons */
+}
+
+.about-us-section {
+  margin-top: 30px; /* Add margin for spacing below navigation buttons */
+  text-align: center;
+  
+}
+
+.about-us-section h2 {
+  color: #000000; /* Adjust the color as needed */
+}
+
+.about-us-section p {
+  line-height: 1.5;
+  color: #666666; /* Adjust the color as needed */
+}
+.card{
+  margin-top: 20px;
+}
